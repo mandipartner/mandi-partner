@@ -28,3 +28,10 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- The site is one scrolling page (`src/routes/index.tsx`) composed from section components in `src/components/site/`; the brief asked for a single-page site with smooth-scroll navigation.
+- Contact details, product list and WhatsApp link building live only in `src/lib/site.ts`; every section reads from there so details change in one place.
+- The inquiry form has no backend: `src/lib/inquiry.ts` validates and formats the message, and submit opens WhatsApp. Add any storage/email call at the marked point in `Contact.tsx`.
+- Images are Lovable Assets pointers under `src/assets/images/`, not files in `public/`, to keep the repo light.
