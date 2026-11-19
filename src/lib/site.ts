@@ -1,8 +1,8 @@
-import quinoaImg from "@/assets/images/quinoa-premium-pouches.webp.asset.json";
-import bajraImg from "@/assets/images/bajra-pearl-millet.webp.asset.json";
+import quinoaImg from "@/assets/images/white-quinoa.webp.asset.json";
+import bajraImg from "@/assets/images/bajra.webp.asset.json";
 import chiaImg from "@/assets/images/chia-seeds.webp.asset.json";
-import rajgiraImg from "@/assets/images/rajgira-amaranth.webp.asset.json";
-import jowarImg from "@/assets/images/jowar-sorghum.webp.asset.json";
+import rajgiraImg from "@/assets/images/rajgira.webp.asset.json";
+import jowarImg from "@/assets/images/jowar.webp.asset.json";
 import assortedImg from "@/assets/images/assorted-grains-seeds.webp.asset.json";
 
 /** Business contact details. Update here and every section follows. */
@@ -45,34 +45,34 @@ export const PRODUCTS: Product[] = [
     name: "Quinoa",
     description: "A nutrient-rich grain known for its versatility and nutritional value.",
     image: quinoaImg.url,
-    alt: "MANDI PARTNER premium quinoa pouches with loose quinoa grains",
+    alt: "White quinoa grains heaped in a wooden bowl on a wooden table",
   },
   {
     name: "Bajra",
     subtitle: "Pearl Millet",
     description: "A traditional Indian millet widely used in nutritious food products.",
     image: bajraImg.url,
-    alt: "Bajra pearl millet grains in a wooden bowl beside pearl millet ear heads",
+    alt: "Bajra pearl millet grains in a wooden bowl on a wooden table",
   },
   {
     name: "Chia Seeds",
     description: "Nutrient-dense seeds valued for their versatility and nutritional profile.",
     image: chiaImg.url,
-    alt: "Chia seeds in a wooden bowl and spoon on a rustic table",
+    alt: "Chia seeds in a wooden bowl on a wooden table",
   },
   {
     name: "Rajgira",
     subtitle: "Amaranth",
     description: "A traditional grain known for its nutritional benefits.",
     image: rajgiraImg.url,
-    alt: "Rajgira amaranth grains in a wooden bowl with a red amaranth flower",
+    alt: "Rajgira amaranth grains in a wooden bowl on a wooden table",
   },
   {
     name: "Jowar",
     subtitle: "Sorghum",
     description: "A versatile millet suitable for various food applications.",
     image: jowarImg.url,
-    alt: "Jowar sorghum grains in a wooden bowl beside a dried sorghum head",
+    alt: "Jowar sorghum grains in a wooden bowl on a wooden table",
   },
   {
     name: "Other Agricultural Products",
