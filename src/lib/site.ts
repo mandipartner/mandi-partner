@@ -3,6 +3,8 @@ import bajraImg from "@/assets/images/bajra.webp.asset.json";
 import chiaImg from "@/assets/images/chia-seeds.webp.asset.json";
 import rajgiraImg from "@/assets/images/rajgira.webp.asset.json";
 import jowarImg from "@/assets/images/jowar.webp.asset.json";
+import blackQuinoaImg from "@/assets/images/black-quinoa.webp.asset.json";
+import coconutImg from "@/assets/images/tender-coconut.webp.asset.json";
 import assortedImg from "@/assets/images/assorted-grains-seeds.webp.asset.json";
 
 /** Business contact details. Update here and every section follows. */
@@ -78,15 +80,15 @@ export const PRODUCTS: Product[] = [
     name: "Black Quinoa",
     description:
       "A nutrient-rich ancient grain known for its distinctive dark colour, earthy flavour and versatility in various food applications.",
-    image: assortedImg.url,
+    image: blackQuinoaImg.url,
     alt: "Black quinoa grains in a wooden bowl on a wooden table",
   },
   {
     name: "Tender Coconut",
     description:
       "A refreshing tropical product valued for its naturally hydrating coconut water and tender coconut flesh, widely used in beverages and food applications.",
-    image: assortedImg.url,
-    alt: "Fresh tender coconuts ready for juice and food use",
+    image: coconutImg.url,
+    alt: "Fresh green tender coconuts in a wooden bowl, one opened with a straw for coconut water",
   },
   {
     name: "Other Agricultural Products",
