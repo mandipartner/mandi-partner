@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 type RevealProps = {
   children: ReactNode;
-  className?: string;
+  className?: string | undefined;
   delay?: number;
   as?: ElementType;
 };
@@ -21,7 +21,7 @@ export function Reveal({ children, className, delay = 0, as: Tag = "div" }: Reve
     }
     const io = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
+        if (entry?.isIntersecting) {
           setVisible(true);
           io.disconnect();
         }

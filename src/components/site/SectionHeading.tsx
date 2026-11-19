@@ -3,10 +3,10 @@ import { cn } from "@/lib/utils";
 type Props = {
   eyebrow: string;
   title: string;
-  description?: string;
+  description?: string | undefined;
   align?: "left" | "center";
   tone?: "default" | "light";
-  className?: string;
+  className?: string | undefined;
 };
 
 export function SectionHeading({
