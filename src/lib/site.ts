@@ -4,8 +4,6 @@ import chiaImg from "@/assets/images/chia-seeds.webp.asset.json";
 import rajgiraImg from "@/assets/images/rajgira.webp.asset.json";
 import jowarImg from "@/assets/images/jowar.webp.asset.json";
 import assortedImg from "@/assets/images/assorted-grains-seeds.webp.asset.json";
-import blackQuinoaImg from "@/assets/images/white-quinoa.webp.asset.json";
-import tenderCoconutImg from "@/assets/images/assorted-grains-seeds.webp.asset.json";
 
 /** Business contact details. Update here and every section follows. */
 export const CONTACT = {
@@ -82,20 +80,6 @@ export const PRODUCTS: Product[] = [
       "We also deal in various grains, millets, seeds and agricultural commodities based on buyer requirements.",
     image: assortedImg.url,
     alt: "Assorted Indian grains, millets, lentils and seeds in wooden bowls and jute sacks",
-  },
-  {
-    name: "Black Quinoa",
-    description:
-      "A nutrient-rich ancient grain known for its distinctive dark colour, earthy flavour and versatility in various food applications.",
-    image: blackQuinoaImg.url,
-    alt: "Black quinoa grains in a wooden bowl on a wooden table",
-  },
-  {
-    name: "Tender Coconut",
-    description:
-      "A refreshing tropical product valued for its naturally hydrating coconut water and tender coconut flesh, widely used in beverages and food applications.",
-    image: tenderCoconutImg.url,
-    alt: "Tender coconut with fresh coconut water and tender coconut flesh",
   },
 ];
 
