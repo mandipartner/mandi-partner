@@ -75,6 +75,20 @@ export const PRODUCTS: Product[] = [
     alt: "Jowar sorghum grains in a wooden bowl on a wooden table",
   },
   {
+    name: "Black Quinoa",
+    description:
+      "A nutrient-rich ancient grain known for its distinctive dark colour, earthy flavour and versatility in various food applications.",
+    image: assortedImg.url,
+    alt: "Black quinoa grains in a wooden bowl on a wooden table",
+  },
+  {
+    name: "Tender Coconut",
+    description:
+      "A refreshing tropical product valued for its naturally hydrating coconut water and tender coconut flesh, widely used in beverages and food applications.",
+    image: assortedImg.url,
+    alt: "Fresh tender coconuts ready for juice and food use",
+  },
+  {
     name: "Other Agricultural Products",
     description:
       "We also deal in various grains, millets, seeds and agricultural commodities based on buyer requirements.",
