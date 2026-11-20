@@ -23,7 +23,7 @@ const HIGHLIGHTS = [
 
 export function Export({ onDiscuss }: { onDiscuss: () => void }) {
   return (
-    <section id="export" className="relative isolate overflow-hidden py-24 sm:py-32">
+    <section id="export" className="relative isolate overflow-hidden pt-14 pb-24 sm:pt-16 sm:pb-32">
       <img
         src={exportImg.url}
         alt="Container cargo ship at an Indian sea port at dusk"
@@ -33,7 +33,7 @@ export function Export({ onDiscuss }: { onDiscuss: () => void }) {
       <div className="bg-export-overlay absolute inset-0 -z-10" />
 
       <div className="container-page">
-        <Reveal className="grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-end">
+        <Reveal className="grid gap-8 lg:grid-cols-[1.2fr_1fr] lg:items-start">
           <SectionHeading
             tone="light"
             eyebrow="Export Business"
