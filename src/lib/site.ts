@@ -14,8 +14,8 @@ export const CONTACT = {
   phoneTel: "+917357585628",
   whatsappNumber: "917357585628",
   instagram: "https://www.instagram.com/mandi_partner/",
-  facebook: "https://www.facebook.com/mandi.partner",
-  linkedin: "https://www.linkedin.com/company/mandi-partner/",
+  facebook: "https://www.facebook.com/share/1QLSeXxWyE/",
+  linkedin: "https://www.linkedin.com/in/mandi-partner-0a275944b",
 } as const;
 
 export const DEFAULT_WHATSAPP_MESSAGE =
