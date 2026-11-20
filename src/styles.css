@@ -121,8 +121,8 @@
   );
   --overlay-export: linear-gradient(
     180deg,
-    color-mix(in oklab, var(--forest-deep) 70%, transparent) 0%,
-    color-mix(in oklab, var(--forest-deep) 92%, transparent) 100%
+    color-mix(in oklab, var(--forest-deep) 48%, transparent) 0%,
+    color-mix(in oklab, var(--forest-deep) 72%, transparent) 100%
   );
 
   --chart-1: var(--forest);

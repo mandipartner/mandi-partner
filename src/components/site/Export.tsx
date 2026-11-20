@@ -50,7 +50,7 @@ export function Export({ onDiscuss }: { onDiscuss: () => void }) {
         <div className="mt-14 grid gap-px overflow-hidden rounded-3xl border border-ivory/15 bg-ivory/15 sm:grid-cols-2 lg:grid-cols-3">
           {HIGHLIGHTS.map(({ icon: Icon, label }, i) => (
             <Reveal key={label} delay={i * 70} className="h-full">
-              <div className="group flex h-full items-center gap-4 bg-forest-deep/60 p-7 backdrop-blur-sm transition-colors duration-300 hover:bg-forest-deep/80">
+              <div className="group flex h-full items-center gap-4 bg-forest-deep/45 p-7 backdrop-blur-sm transition-colors duration-300 hover:bg-forest-deep/65">
                 <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full border border-gold/40 text-gold transition-colors group-hover:bg-gold group-hover:text-forest-deep">
                   <Icon className="h-5 w-5" />
                 </span>
