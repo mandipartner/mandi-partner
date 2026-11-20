@@ -15,9 +15,9 @@ const valid = {
 };
 
 describe("WhatsApp inquiry", () => {
-  it("opens a chat with +91 9999999999 using the brief's default message", () => {
+  it("opens a chat with +91 7357585628 using the brief's default message", () => {
     expect(whatsappUrl()).toBe(
-      "https://wa.me/919999999999?text=" +
+      "https://wa.me/917357585628?text=" +
         encodeURIComponent(
           "Hello MANDI PARTNER, I am interested in your agricultural products. Please share more details.",
         ),

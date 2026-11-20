@@ -10,9 +10,9 @@ import assortedImg from "@/assets/images/assorted-grains-seeds.webp.asset.json";
 /** Business contact details. Update here and every section follows. */
 export const CONTACT = {
   email: "business@mandipartner.com",
-  phoneDisplay: "+91 99999 99999",
-  phoneTel: "+919999999999",
-  whatsappNumber: "919999999999",
+  phoneDisplay: "+91 73575 85628",
+  phoneTel: "+917357585628",
+  whatsappNumber: "917357585628",
   instagram: "https://www.instagram.com/mandi_partner/",
   facebook: "https://www.facebook.com/mandi.partner",
   linkedin: "https://www.linkedin.com/company/mandi-partner/",
